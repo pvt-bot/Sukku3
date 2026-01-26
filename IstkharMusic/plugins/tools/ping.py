@@ -19,7 +19,7 @@ async def ping_com(client, message: Message, _):
     response = await message.reply_photo(
         await message.reply_text(
     "Pong!",
-    has_spoiler=True
+    has_spoiler=True",
         )
         photo="https://files.catbox.moe/leaexg.jpg",
         caption=_["ping_1"].format(app.mention),
